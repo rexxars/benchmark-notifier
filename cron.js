@@ -4,14 +4,14 @@ import {run} from './index.js'
 
 function getMillisecondsUntil137PM() {
   const now = new Date()
+
+  // Create target time in PST (UTC-8)
   const target = new Date()
+  target.setUTCHours(21, 37, 0, 0) // 13:37 PST = 21:37 UTC
 
-  // Set target to 1:37 PM today
-  target.setHours(13, 37, 0, 0)
-
-  // If it's already past 1:37 PM today, schedule for tomorrow
+  // If it's already past the target time today, schedule for tomorrow
   if (now > target) {
-    target.setDate(target.getDate() + 1)
+    target.setUTCDate(target.getUTCDate() + 1)
   }
 
   return target.getTime() - now.getTime()
@@ -21,10 +21,14 @@ function scheduleNextRun() {
   const msUntilRun = getMillisecondsUntil137PM()
   const nextRunTime = new Date(Date.now() + msUntilRun)
 
-  console.log(`Next run scheduled for: ${nextRunTime.toLocaleString()}`)
+  console.log(
+    `Next run scheduled for: ${nextRunTime.toLocaleString('en-US', {timeZone: 'America/Los_Angeles'})} PST`,
+  )
 
   setTimeout(() => {
-    console.log(`Running at ${new Date().toLocaleString()}`)
+    console.log(
+      `Running at ${new Date().toLocaleString('en-US', {timeZone: 'America/Los_Angeles'})} PST`,
+    )
     run()
       .then(() => {
         console.log('Run completed, scheduling next run...')
