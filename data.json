@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Benchmark Pizza",
+    "description": "Tomato, Mozzarella, Basil, Extra Virgin Olive Oil",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/GMP7YI0QfhbvuGoEwkivq5A4kMBw69WtSxdcit1u7Iw/resize:fit:1280:1280/plain/s3://toasttab/menu_service/restaurants/aa19061b-5d67-451e-9c47-dbe81472bc47/MenuItem/74fa5f74-3843-4e50-a3b9-be27ebab3ffd.jpg"
+  },
+  {
+    "name": "Delicata Squash Pizza",
+    "description": "Fresh Mozzarella, Delicata Squash, Dino Kale, Brown Butter & Lemon",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/NXlbpaj5gdXNKP_M1QyLMK-93ooWuv7J2Pp_xQheFRk/resize:fit:1280:1280/plain/s3://toasttab/restaurants/restaurant-11741000000000000/menu/items/1/item-200000014891663511_1730155955.jpg"
+  },
+  {
+    "name": "Fried Sage Pizza",
+    "description": "Garlic, Fresh Mozzarella, Brown Butter, Grana",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/WwgvHtgavG9lq0tt9xmT6zcQ85omDKeMGVqJj_QilR4/resize:fit:1280:1280/plain/s3://toasttab/restaurants/restaurant-11741000000000000/menu/items/2/item-200000000049191102_1710803186.jpg"
+  },
+  {
+    "name": "K-Ninos Pizza",
+    "description": "Same size as adult but kid friendly grated mozzarella, providing classic kids cheese pizza!",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/-G03oK7z4wQcwx1vcgGB0eUFnndu9FCArrw7xvWQ77Q/resize:fit:1280:1280/plain/s3://toasttab/restaurants/restaurant-11741000000000000/menu/items/8/item-200000000056921688_1588893192.jpg"
+  },
+  {
+    "name": "Meatball Pizza",
+    "description": "Tomato, Mozzarella, Grana, Meatballs, Parsley",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/ReY_ZAz0i6IxvkFdUSylF8dDXrc6ClhsaYkyF-j5Evo/resize:fit:1280:1280/plain/s3://toasttab/restaurants/restaurant-11741000000000000/menu/items/5/item-200000000060143055_1588979407.jpg"
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "description": "Tomato Sauce, Mozzarella, Pepperoni, Grana, Pecorino",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/p8cNqnFb4drilTCdzkJOtszkpa4axlUdNZgyWPfqU9E/resize:fit:1280:1280/plain/s3://toasttab/restaurants/restaurant-11741000000000000/menu/items/6/item-200000030088498086_1710803100.jpg"
+  },
+  {
+    "name": "Prosciutto Pizza",
+    "description": "Fresh Mozzarella, Grana, Pecorino, Prosciutto di Parma, Arugula",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/mHZPOS99a1YyxG9GrpztvTdUyusiO6rDVGSmOKB_EBs/resize:fit:1280:1280/plain/s3://toasttab/restaurants/restaurant-11741000000000000/menu/items/2/item-200000015766481102_1752878617.jpg"
+  },
+  {
+    "name": "Salami Pizza",
+    "description": "Tomato Sauce, Mozzarella, Calabrian Chilies, Pickled Red Onions, Grana",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/d49TMi_ygVsDTwcKtxdWL0_mB1z1W_vNcY-F9zEHBuw/resize:fit:1280:1280/plain/s3://toasttab/menu_service/restaurants/aa19061b-5d67-451e-9c47-dbe81472bc47/MenuItem/8cc5eab5-4c80-4717-8fa6-0ad39ad24a14.jpg"
+  },
+  {
+    "name": "Sausage Pizza",
+    "description": "Tomato Sauce, Mozzarella, Mushrooms, Red Onions, Grana",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/2znMUhy0jtz75B5YSt-T4gs6wP1vcA9dKZnx6KZ0mDQ/resize:fit:1280:1280/plain/s3://toasttab/restaurants/restaurant-11741000000000000/menu/items/7/item-200000000881774777_1759620547.jpg"
+  },
+  {
+    "name": "Vegan Pizza",
+    "description": "Blended cashew \"cream\", spinach, mushrooms, lemon, castelvetrano olives.",
+    "imageUrl": "https://d1w7312wesee68.cloudfront.net/D-hhYfrQsIVLFMA8lbLqqveWoyxcfOd1l_9V0fUoos8/resize:fit:1280:1280/plain/s3://toasttab/restaurants/restaurant-11741000000000000/menu/items/6/item-200000012005629296_1747254815.jpg"
+  }
+]

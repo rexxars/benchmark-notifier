@@ -1,0 +1,30 @@
+{
+  "name": "benchmark-notifier",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Scrapes Benchmark Pizza's website/Toast menu and checks if there are new pizzas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  },
+  "type": "module",
+  "keywords": [
+    "pizza",
+    "scraper",
+    "notifier"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "bracketSpacing": false
+  }
+}
