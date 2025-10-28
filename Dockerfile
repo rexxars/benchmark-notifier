@@ -12,4 +12,6 @@ RUN npm ci
 # Bundle app source
 COPY . .
 
+RUN npx playwright install
+
 CMD [ "node", "cron.js" ]
