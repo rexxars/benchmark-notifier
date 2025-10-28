@@ -1,4 +1,4 @@
-FROM node:22-alpine
+FROM node:22-bookworm
 LABEL version="1.0" maintainer="Espen Hovlandsdal <espen@hovlandsdal.com>"
 
 WORKDIR /srv/app
@@ -12,6 +12,7 @@ RUN npm ci
 # Bundle app source
 COPY . .
 
-RUN npx playwright install
+RUN npx -y playwright install --with-deps
+RUN npx -y playwright install
 
 CMD [ "node", "cron.js" ]
