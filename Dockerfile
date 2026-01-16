@@ -12,7 +12,6 @@ RUN npm ci
 # Bundle app source
 COPY . .
 
-RUN npx -y playwright install --with-deps
-RUN npx -y playwright install
+RUN npx -y playwright install --with-deps chromium
 
 CMD [ "node", "cron.js" ]
