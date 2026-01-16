@@ -45,6 +45,12 @@ function scheduleNextRun() {
 console.log('Starting cron scheduler for daily runs at 1:37 PM...')
 scheduleNextRun()
 
+console.log('Doing initital run now...')
+run().catch((error) => {
+  console.error('Initial run failed:', error)
+  process.exit(1)
+})
+
 // Keep the process alive
 process.on('SIGINT', () => {
   console.log('\nReceived SIGINT, exiting gracefully...')
